@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	manager.getTransaction().begin();
 	
 	Employee emp = new Employee();
-	emp.setE_id(101);
+	emp.setE_id(103);
 	emp.setE_name("Dinga");
 	emp.setE_salary(9000);
 	emp.setE_password("root");

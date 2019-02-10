@@ -42,6 +42,11 @@ public class Employee {
 	public void setE_password(String e_password) {
 		this.e_password = e_password;
 	}
+	@Override
+	public String toString() {
+		return "Employee [e_id=" + e_id + ", e_name=" + e_name + ", e_salary=" + e_salary + ", e_password=" + e_password
+				+ "]";
+	}
 	
 	
 	
